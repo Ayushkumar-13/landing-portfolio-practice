@@ -1,0 +1,440 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+#Explorin-Academy{
+    padding-top: 0.56em;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    width: 100vw;
+    color: #F2F2F2;
+    background-color: #172937;
+}
+.navlogo{
+    display: flex;
+    gap: 1em;
+    padding: 0.7em;
+    font-size: large;
+}
+.image img{ 
+     border-radius: 100%;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.9em;
+    /* margin: 1em; */
+    /* border: 1px solid; */
+    align-items: center;
+}
+nav ul li{
+    padding: 0.2em;
+    font-size: large;
+    /* height: 1em; */
+    width: 4.5em;
+    height: 1.4em;
+    border-radius: 10px;
+    margin-right: 1.5em;
+    text-align: center;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    /* border: 1px solid; */
+    width: 100vw;
+    justify-content: space-between;
+    background-color:  #172937;
+    color: #C6CACD;
+    font-size: large;
+
+}
+#skills{
+    color: #F37021;
+}
+.introduction{
+    width: 52vw;
+    margin: 2em;
+    margin-left:5em;
+    font-size: larger;
+}
+
+.profile img{
+    border-radius: 100%;
+    margin-top: 1.8em;
+    margin-bottom: 1.1em;
+    margin-right: 10em;
+    border: 2px solid ;
+    object-fit: cover;
+   
+}  
+.section{
+    /* border: 1px solid; */
+    height: 63vh;
+    width: 100vw;
+    text-align: center;
+    font-size:larger;
+    padding: 0.1em;
+    
+    background: linear-gradient(
+    to right, 
+    rgba(254, 245, 229, 1), /* Light Cream with 80% opacity */
+    rgba(232, 233, 253, 0.8), /* Soft Blue with 60% opacity */
+    rgba(250, 250, 254, 0.4)  /* Almost White with 40% opacity */
+  );
+}
+.content{
+    margin: 2em;
+    padding: 2em;
+}
+#Explorin-Academy{
+    color: orange;
+}
+
+.skillitems{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid ; */
+    flex-wrap: wrap;
+    margin: 1.5em;
+    margin-left: 3.5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    gap: 2em;
+    align-items: center;
+    padding: 1em;
+    border-radius: 20px;
+    background-color:  #FDFDFD;
+    width: 90vw;
+     border-style: none;
+     box-shadow:3px 3px 3px  #E8E8EA;
+     box-sizing: border-box;
+     /* height: 80vh; */
+}
+
+.skill-div-item{
+    border: 2px solid orange;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.3em;
+
+    /* height: 2em;;                                                                 */
+}
+.progress{
+    text-align: center;
+    /* border: 1px solid ; */
+    padding: 2em;
+    width: 100vw;
+    font-size: large;
+    height: 100vh;
+    background: linear-gradient(
+        to right, 
+        rgba(254, 245, 229, 1), /* Light Cream with 80% opacity */
+        rgba(232, 233, 253, 0.8), /* Soft Blue with 60% opacity */
+        rgba(250, 250, 254, 1) 
+         /* Almost White with 40% opacity */
+      );
+}
+#progress{
+    color: #F37021;
+}
+.progress-head-part{
+    /* border: 1px solid; */
+    margin: 1.8em;
+    font-size: larger;
+    padding: 2em;
+    padding-bottom: 5em;
+}
+
+button{
+    background-color:#F37021;
+    border-style: none;
+    border-radius: 5px;
+    height: 3em;
+    width: 12.5em;
+    color: white;
+    font-size:medium;
+}
+.videoitem{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    justify-content: space-evenly;
+    gap: 3em;
+    margin: 1em;
+    padding: 1em;
+    /* height: 90vh; */
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+.videos{
+    width: 10em;    
+    height: 11em;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.videos img{
+    width: 100%;
+      height: 50%;
+background-color: yellow    ;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+}
+.description {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+  }
+.projects{
+    width: 100vw;
+    /* border: 1px solid; */
+    padding: 1em;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    height: 85vh;
+    background: linear-gradient(
+        to right, 
+        rgba(254, 245, 229, 1), /* Light Cream with 80% opacity */
+        rgba(232, 233, 253, 0.8), /* Soft Blue with 60% opacity */
+        rgba(250, 250, 254, 1) 
+         /* Almost White with 40% opacity */
+      );
+}
+.projectlist{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+.project-container{
+    width: 14em;
+    height: 16em;
+    border: 1px solid;
+}
+#resume{
+    border: 2px solid orange;
+}
+
+
+
+.card {
+    height: 17em;
+    width: 18em;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .image-section {
+      background: #C4C4C4;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.7em;
+  }
+.img{
+    color: #D64725;
+}
+  .description {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  .projects-head-part{
+    /* border: 1px solid; */
+    margin: 1.8em;
+    font-size: larger;
+    padding: 2em;
+    padding-bottom: 5em;
+}
+#p{
+    font-size: x-small;
+    padding:0.7em;
+    color: #4f4f4f;
+}
+.description{
+    text-align: left;
+}
+#proj{
+    color: #FF8153;
+}
+#proj-h4{
+    color: #000000;
+    margin: 0.1em;
+}
+#desc{
+    font-size: small;
+}
+.card-proj {
+    height: 22em;
+    width: 20em;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .project-image-section {
+      background: #C4C4C4;
+      padding: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 11.1em;
+    }
+.education{
+    width: 100vw;
+    height: 80vh;
+    padding: 0.1em;
+    
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(
+        to right, 
+        rgba(254, 245, 229, 1), /* Light Cream with 80% opacity */
+        rgba(232, 233, 253, 0.8), /* Soft Blue with 60% opacity */
+        rgba(250, 250, 254, 1) 
+         /* Almost White with 40% opacity */
+      );
+    }
+.education-header{
+    margin: 3em;
+    font-size: larger;
+}
+#edu-p{
+    font-size: larger;
+}
+.education-elements{
+    display: flex;
+    margin: 2.2em;
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+}
+ .education-content{
+    width: 45vw;
+    border: 1px solid;
+    height: 10vh;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-style: none;
+    box-shadow:3px 3px 3px  #E8E8EA;
+    /* display: flex; */
+    /* gap: 10em; */
+}
+.rows{
+    display: flex;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 2em;
+    
+    
+    
+}
+.education-image{
+    border-radius: 100%;
+    border: 1px solid #e3e3e3;
+    height: 5em;
+    width: 6em;
+    margin-right: 3em;
+}
+#item{
+    color: #FF8153;
+    text-align: left;
+    margin-left: 0.1em;
+}
+#description-edu{
+    font-size: smaller;
+    text-align: left;
+    padding-left: 0.3em;
+}
+.education-text{
+    line-height: 1.6em;
+}
+.footer{
+    background-color:#172937 ;
+    width: 100vw;
+}
+#footer-h1{
+    padding-top: 0.6em;
+    text-align: center;
+    color: orange;
+    
+}
+.footer-header{
+    font-size: larger;
+}
+
+#footer-p{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.footer-header{
+    width: 100vw;
+        /* background-color: #172937; */
+    }
+    .footerlinks{
+        display: flex;
+        justify-content:center ;
+        gap: 1.3em;
+        /* width: 9%; */
+        width: 90%;
+        text-align: center;
+        margin: 1em;
+        /* border: 1px solid white; */
+        margin-left: 6.2em;
+    }
+    .footericon{
+        border: 1.7px solid orange;
+        border-radius: 10px;
+        display: flex;
+        margin: 1em;
+        color: white;
+        gap: .3em;
+        padding: 0.4em;
+    }
+    #texts{
+        text-align: center;
+        padding: .3em;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
