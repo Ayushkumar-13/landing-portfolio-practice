@@ -67,6 +67,8 @@ nav ul li a{
     background-color:  #172937;
     color: #C6CACD;
     font-size: large;
+    height: 60vh;
+    
 
 }
 #skills{
@@ -74,9 +76,10 @@ nav ul li a{
 }
 .introduction{
     width: 52vw;
-    margin: 2em;
+    margin: 3em;
     margin-left:5em;
     font-size: larger;
+    
 }
 
 .profile img{
@@ -413,7 +416,7 @@ background-color: yellow    ;
     .footerlinks{
         display: flex;
         justify-content:center ;
-        gap: 1.3em;
+        gap: .7em;
         /* width: 9%; */
         width: 90%;
         text-align: center;
